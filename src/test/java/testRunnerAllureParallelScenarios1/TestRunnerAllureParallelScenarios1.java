@@ -16,8 +16,6 @@ import io.cucumber.testng.CucumberOptions;
         
 )
 
-//@Test // Add TestNG's Test annotation here
-
 public class TestRunnerAllureParallelScenarios1 extends AbstractTestNGCucumberTests {
 	
 	

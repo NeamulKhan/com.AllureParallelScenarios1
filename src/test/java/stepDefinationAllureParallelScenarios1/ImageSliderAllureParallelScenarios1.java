@@ -1,5 +1,9 @@
 package stepDefinationAllureParallelScenarios1;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import io.cucumber.java.Scenario;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -8,8 +12,17 @@ import utilityAllurePrallelScenarios1.BaseClassAllureParallelScenarios1;
 public class ImageSliderAllureParallelScenarios1 extends BaseClassAllureParallelScenarios1 {
 	
 	
+	private static final Logger logger = LoggerFactory.getLogger(ImageSliderAllureParallelScenarios1.class);
+	//private final Scenario scenario;
+	
+/*	public ImageSliderAllureParallelScenarios1(Scenario scenario) {
+        this.scenario = scenario;
+    }*/
+	
 	@Given("I am on the website homepage")
 	public void i_am_on_the_website_homepage() {
+		
+	//	 logger.info("Scenario [{}] - Verifying homepage title", scenario.getName());
 	    
 		allureParallelScenarios1_launchURL();
 	}

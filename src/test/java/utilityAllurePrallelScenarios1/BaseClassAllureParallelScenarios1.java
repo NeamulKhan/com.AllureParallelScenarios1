@@ -41,8 +41,10 @@ public class BaseClassAllureParallelScenarios1 {
 	//public static void allureParallelScenarios1_initializeDriver(String browser) {
 	
 		public static void allureParallelScenarios1_initializeDriver() {
+			
+			String browser = allureParallelScenarios1_prop.getProperty("browser");
 		
-		String browser = System.getProperty("browser", allureParallelScenarios1_prop.getProperty("browser"));  
+	//	String browser = System.getProperty("browser", allureParallelScenarios1_prop.getProperty("browser"));  
 		System.out.println("Thread ID: " + Thread.currentThread().getId() + ", Browser: " + browser);
 				
 		 if (driver.get() == null) {

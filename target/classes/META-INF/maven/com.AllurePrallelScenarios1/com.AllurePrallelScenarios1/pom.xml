@@ -157,7 +157,7 @@
                 <testFailureIgnore>true</testFailureIgnore>
                 
                 	<suiteXmlFiles>
-                       <suiteXmlFile>C:\workspaces\projects\com.AllureParallelScenarios1\testng.xml</suiteXmlFile>
+                       <suiteXmlFile>C:\workspaces\projects\com.AllureParallelScenarios1\testng1.xml</suiteXmlFile>
                    	</suiteXmlFiles>
                    
               	<argLine>

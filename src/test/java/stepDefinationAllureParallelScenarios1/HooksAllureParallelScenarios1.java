@@ -25,7 +25,7 @@ public class HooksAllureParallelScenarios1 extends BaseClassAllureParallelScenar
 	
 	
 	@After
-	    public void tearDown(Scenario scenario) {
+	    public void tearDown(io.cucumber.java.Scenario scenario) {
 		  
 		 if (scenario.isFailed()) {
 	            byte[] screenshot = ((TakesScreenshot) BaseClassAllureParallelScenarios1.getDriver()).getScreenshotAs(OutputType.BYTES);
