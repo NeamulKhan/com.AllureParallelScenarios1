@@ -13,16 +13,14 @@ public class ImageSliderAllureParallelScenarios1 extends BaseClassAllureParallel
 	
 	
 	private static final Logger logger = LoggerFactory.getLogger(ImageSliderAllureParallelScenarios1.class);
-	//private final Scenario scenario;
 	
-/*	public ImageSliderAllureParallelScenarios1(Scenario scenario) {
-        this.scenario = scenario;
-    }*/
+	
+
 	
 	@Given("I am on the website homepage")
 	public void i_am_on_the_website_homepage() {
 		
-	//	 logger.info("Scenario [{}] - Verifying homepage title", scenario.getName());
+		logger.info("Thread ID: {} - Verifying homepage title", Thread.currentThread().getId());
 	    
 		allureParallelScenarios1_launchURL();
 	}
