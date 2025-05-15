@@ -1,10 +1,13 @@
 package testRunnerAllureParallelScenarios1;
 
 
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.DataProvider;
 
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
+import utilityAllureParallelScenarios1.EnvironmentWriterAllureParallelScenarios1;
 
 
 @CucumberOptions(
@@ -17,6 +20,14 @@ import io.cucumber.testng.CucumberOptions;
 )
 
 public class TestRunnerAllureParallelScenarios1 extends AbstractTestNGCucumberTests {
+	
+	
+
+    // ✅ One-time setup to write environment info
+    @BeforeClass
+    public void beforeSuite() {
+        EnvironmentWriterAllureParallelScenarios1.writeAllureEnvironmentInfo();
+    }
 	
 	
     // ✅ This enables parallel scenario execution within each browser test

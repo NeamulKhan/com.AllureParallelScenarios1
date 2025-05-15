@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <testng-results failed="0" passed="2" skipped="0" total="2">
-    <suite duration-ms="4154" name="io.cucumber.core.plugin.TestNGFormatter">
-        <test duration-ms="4154" name="io.cucumber.core.plugin.TestNGFormatter">
+    <suite duration-ms="5370" name="io.cucumber.core.plugin.TestNGFormatter">
+        <test duration-ms="5370" name="io.cucumber.core.plugin.TestNGFormatter">
             <class name="Homepage image slider functionality">
-                <test-method duration-ms="3668" finished-at="2025-05-14T01:52:22.750465100Z" name="Verify homepage image slider is displayed" started-at="2025-05-14T01:52:18.921221Z" status="PASS"/>
-                <test-method duration-ms="3698" finished-at="2025-05-14T01:52:22.779124300Z" name="Verify image slider automatically changes images" started-at="2025-05-14T01:52:18.921221Z" status="PASS"/>
+                <test-method duration-ms="4875" finished-at="2025-05-15T02:17:17.570191200Z" name="Verify homepage image slider is displayed" started-at="2025-05-15T02:17:12.528576400Z" status="PASS"/>
+                <test-method duration-ms="4882" finished-at="2025-05-15T02:17:17.570191200Z" name="Verify image slider automatically changes images" started-at="2025-05-15T02:17:12.528576400Z" status="PASS"/>
             </class>
         </test>
     </suite>

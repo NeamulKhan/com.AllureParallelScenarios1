@@ -11,7 +11,7 @@ import org.testng.annotations.Parameters;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
-import utilityAllurePrallelScenarios1.BaseClassAllureParallelScenarios1;
+import utilityAllureParallelScenarios1.BaseClassAllureParallelScenarios1;
 
 public class HooksAllureParallelScenarios1 extends BaseClassAllureParallelScenarios1 {
 		

@@ -7,7 +7,7 @@ import io.cucumber.java.Scenario;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import utilityAllurePrallelScenarios1.BaseClassAllureParallelScenarios1;
+import utilityAllureParallelScenarios1.BaseClassAllureParallelScenarios1;
 
 public class ImageSliderAllureParallelScenarios1 extends BaseClassAllureParallelScenarios1 {
 	
