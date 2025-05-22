@@ -1,4 +1,14 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.086 s -- in TestSuite
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 15.02 s <<< FAILURE! -- in TestSuite
+testRunnerAllureParallelScenarios1.TestRunnerAllureParallelScenarios1.runScenario["Verify image slider automatically changes images", "Homepage image slider functionality"](2) -- Time elapsed: 5.355 s <<< FAILURE!
+java.lang.AssertionError: Image did not change did not expect [https://www.alwaysfashion.com/images/thumbs/0214788_oris-big-crown-pointer-date-01-754-7798-4068-07-8-20-06_420.jpeg] but found [https://www.alwaysfashion.com/images/thumbs/0214788_oris-big-crown-pointer-date-01-754-7798-4068-07-8-20-06_420.jpeg]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failEquals(Assert.java:1582)
+	at org.testng.Assert.assertNotEqualsImpl(Assert.java:157)
+	at org.testng.Assert.assertNotEquals(Assert.java:2198)
+	at pageActionAllureParallelScenarios1.HomepageActionAllureParallelScenarios1.displayed_image_should_be_different_from_the_previous_one(HomepageActionAllureParallelScenarios1.java:39)
+	at stepDefinationAllureParallelScenarios1.ImageSliderAllureParallelScenarios1.the_displayed_image_should_be_different_from_the_previous_one(ImageSliderAllureParallelScenarios1.java:52)
+	at ✽.the displayed image should be different from the previous one(file:///C:/workspaces/projects/com.AllureParallelScenarios1/src/test/resources/featureFolderAllureParallelScenarios1/ImageSliderAllureParallelScenarios1.feature:20)
+

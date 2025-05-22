@@ -59,7 +59,7 @@ public class BaseClassAllureParallelScenarios1 {
 			
 			osDetails.set(osInfo); //Store OS details in ThreadLocal
 			
-			logger.info("Launching test on browser: {}, OS: {}", osDetails.get());
+		//	logger.info("Launching test on browser: {}, OS: {}", osDetails.get());
 			
 			logger.info("**** Setting up WebDriver for browser: {} on OS: {} ****", browser, osInfo);
 		
@@ -116,14 +116,16 @@ public class BaseClassAllureParallelScenarios1 {
 		
 		public static void allureParallelScenarios1_launchURL() {
 			
-			logger.info("Launching browser: {}",allureParallelScenarios1_prop.getProperty("browser"));
+		//	logger.info("Launching URL: {}",allureParallelScenarios1_prop.getProperty("browser"));
 		//	logger.info("Launching URL on browser: {}", getBrowser());
+			
+			logger.info("Launcing URL on ThreadID: " + Thread.currentThread().getId() + ", Browser: " + allureParallelScenarios1_prop.getProperty("browser"));
 			
 			getDriver().get(allureParallelScenarios1_prop.getProperty("base.url"));
 		}
 	
 		 public static void quitDriver() {
-			 logger.info("Closing browser");
+			 logger.info("Closing browser: " + allureParallelScenarios1_prop.getProperty("browser") + ", on ThreadID: " + Thread.currentThread().getId());
 		//	 logger.info("Closing browser: {}", getBrowser());
 		        if (driver.get() != null) {
 		            driver.get().quit();

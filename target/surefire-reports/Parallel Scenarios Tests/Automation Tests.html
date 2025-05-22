@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Automation Tests</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>1/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Wed May 14 22:16:32 EDT 2025</td>
+<td>Started on:</td><td>Wed May 21 20:16:21 EDT 2025</td>
 </tr>
-<tr><td>Total time:</td><td>6 seconds (6554 ms)</td>
+<tr><td>Total time:</td><td>13 seconds (13527 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,33 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testRunnerAllureParallelScenarios1.TestRunnerAllureParallelScenarios1.runScenario()'><b>runScenario</b><br>Test class: testRunnerAllureParallelScenarios1.TestRunnerAllureParallelScenarios1<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify image slider automatically changes images", "Homepage image slider functionality"</td>
+<td><div><pre>java.lang.AssertionError: Image did not change did not expect [https://www.alwaysfashion.com/images/thumbs/0214788_oris-big-crown-pointer-date-01-754-7798-4068-07-8-20-06_420.jpeg] but found [https://www.alwaysfashion.com/images/thumbs/0214788_oris-big-crown-pointer-date-01-754-7798-4068-07-8-20-06_420.jpeg]
+	at pageActionAllureParallelScenarios1.HomepageActionAllureParallelScenarios1.displayed_image_should_be_different_from_the_previous_one(HomepageActionAllureParallelScenarios1.java:39)
+	at stepDefinationAllureParallelScenarios1.ImageSliderAllureParallelScenarios1.the_displayed_image_should_be_different_from_the_previous_one(ImageSliderAllureParallelScenarios1.java:52)
+	at ✽.the displayed image should be different from the previous one(file:///C:/workspaces/projects/com.AllureParallelScenarios1/src/test/resources/featureFolderAllureParallelScenarios1/ImageSliderAllureParallelScenarios1.feature:20)
+... Removed 4 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace515072894", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace515072894'><pre>java.lang.AssertionError: Image did not change did not expect [https://www.alwaysfashion.com/images/thumbs/0214788_oris-big-crown-pointer-date-01-754-7798-4068-07-8-20-06_420.jpeg] but found [https://www.alwaysfashion.com/images/thumbs/0214788_oris-big-crown-pointer-date-01-754-7798-4068-07-8-20-06_420.jpeg]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failEquals(Assert.java:1582)
+	at org.testng.Assert.assertNotEqualsImpl(Assert.java:157)
+	at org.testng.Assert.assertNotEquals(Assert.java:2198)
+	at pageActionAllureParallelScenarios1.HomepageActionAllureParallelScenarios1.displayed_image_should_be_different_from_the_previous_one(HomepageActionAllureParallelScenarios1.java:39)
+	at stepDefinationAllureParallelScenarios1.ImageSliderAllureParallelScenarios1.the_displayed_image_should_be_different_from_the_previous_one(ImageSliderAllureParallelScenarios1.java:52)
+	at ✽.the displayed image should be different from the previous one(file:///C:/workspaces/projects/com.AllureParallelScenarios1/src/test/resources/featureFolderAllureParallelScenarios1/ImageSliderAllureParallelScenarios1.feature:20)
+</pre></div></td>
+<td>5</td>
+<td>testRunnerAllureParallelScenarios1.TestRunnerAllureParallelScenarios1@7fb29ca9</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,15 +103,10 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testRunnerAllureParallelScenarios1.TestRunnerAllureParallelScenarios1.runScenario()'><b>runScenario</b><br>Test class: testRunnerAllureParallelScenarios1.TestRunnerAllureParallelScenarios1<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify image slider automatically changes images", "Homepage image slider functionality"</td>
-<td></td>
-<td>4</td>
-<td>testRunnerAllureParallelScenarios1.TestRunnerAllureParallelScenarios1@44cffc25</td></tr>
-<tr>
 <td title='testRunnerAllureParallelScenarios1.TestRunnerAllureParallelScenarios1.runScenario()'><b>runScenario</b><br>Test class: testRunnerAllureParallelScenarios1.TestRunnerAllureParallelScenarios1<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify homepage image slider is displayed", "Homepage image slider functionality"</td>
 <td></td>
 <td>4</td>
-<td>testRunnerAllureParallelScenarios1.TestRunnerAllureParallelScenarios1@44cffc25</td></tr>
+<td>testRunnerAllureParallelScenarios1.TestRunnerAllureParallelScenarios1@7fb29ca9</td></tr>
 </table><p>
 </body>
 </html>

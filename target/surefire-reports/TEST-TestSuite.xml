@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="8.086" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="15.021" tests="2" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -10,13 +10,12 @@
     <property name="user.variant" value=""/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
     <property name="user.timezone" value="America/Toronto"/>
-    <property name="suiteXmlFile" value="testng.xml"/>
     <property name="os.name" value="Windows 10"/>
     <property name="java.vm.specification.version" value="21"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="CA"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Users\user\AppData\Local\Temp\surefire17142534744655420587\surefirebooter-20250514221630665_3.jar C:\Users\user\AppData\Local\Temp\surefire17142534744655420587 2025-05-14T22-16-30_558-jvmRun1 surefire-20250514221630665_1tmp surefire_0-20250514221630665_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\user\AppData\Local\Temp\surefire8932132219532669828\surefirebooter-20250521201618838_3.jar C:\Users\user\AppData\Local\Temp\surefire8932132219532669828 2025-05-21T20-16-18_737-jvmRun1 surefire-20250521201618838_1tmp surefire_0-20250521201618838_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\workspaces\projects\com.AllureParallelScenarios1\target\test-classes;C:\workspaces\projects\com.AllureParallelScenarios1\target\classes;C:\Users\user\.m2\repository\io\cucumber\cucumber-java\7.14.0\cucumber-java-7.14.0.jar;C:\Users\user\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-testng\7.14.0\cucumber-testng-7.14.0.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-core\7.14.0\cucumber-core-7.14.0.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-gherkin\7.14.0\cucumber-gherkin-7.14.0.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.14.0\cucumber-gherkin-messages-7.14.0.jar;C:\Users\user\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\user\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\user\.m2\repository\io\cucumber\tag-expressions\5.0.6\tag-expressions-5.0.6.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\user\.m2\repository\io\cucumber\datatable\7.14.0\datatable-7.14.0.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-plugin\7.14.0\cucumber-plugin-7.14.0.jar;C:\Users\user\.m2\repository\io\cucumber\docstring\7.14.0\docstring-7.14.0.jar;C:\Users\user\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\user\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\user\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\user\.m2\repository\io\cucumber\cucumber-picocontainer\7.14.0\cucumber-picocontainer-7.14.0.jar;C:\Users\user\.m2\repository\org\picocontainer\picocontainer\2.15\picocontainer-2.15.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-java\4.15.0\selenium-java-4.15.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-api\4.15.0\selenium-api-4.15.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.15.0\selenium-chrome-driver-4.15.0.jar;C:\Users\user\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.15.0\selenium-chromium-driver-4.15.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-json\4.15.0\selenium-json-4.15.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.15.0\selenium-manager-4.15.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v117\4.15.0\selenium-devtools-v117-4.15.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v118\4.15.0\selenium-devtools-v118-4.15.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.15.0\selenium-devtools-v119-4.15.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.15.0\selenium-devtools-v85-4.15.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.15.0\selenium-edge-driver-4.15.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.15.0\selenium-firefox-driver-4.15.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-http\4.15.0\selenium-http-4.15.0.jar;C:\Users\user\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.15.0\selenium-ie-driver-4.15.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.15.0\selenium-remote-driver-4.15.0.jar;C:\Users\user\.m2\repository\com\google\guava\guava\32.1.2-jre\guava-32.1.2-jre.jar;C:\Users\user\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\user\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\user\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\user\.m2\repository\org\checkerframework\checker-qual\3.33.0\checker-qual-3.33.0.jar;C:\Users\user\.m2\repository\com\google\errorprone\error_prone_annotations\2.18.0\error_prone_annotations-2.18.0.jar;C:\Users\user\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-api\1.28.0\opentelemetry-api-1.28.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-context\1.28.0\opentelemetry-context-1.28.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.28.0\opentelemetry-exporter-logging-1.28.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.28.0\opentelemetry-sdk-metrics-1.28.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.28.0-alpha\opentelemetry-extension-incubator-1.28.0-alpha.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.28.0\opentelemetry-sdk-logs-1.28.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.28.0\opentelemetry-sdk-common-1.28.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.28.0\opentelemetry-sdk-extension-autoconfigure-spi-1.28.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.28.0\opentelemetry-sdk-extension-autoconfigure-1.28.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.28.0-alpha\opentelemetry-api-events-1.28.0-alpha.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.28.0\opentelemetry-sdk-trace-1.28.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.28.0\opentelemetry-sdk-1.28.0.jar;C:\Users\user\.m2\repository\io\opentelemetry\opentelemetry-semconv\1.28.0-alpha\opentelemetry-semconv-1.28.0-alpha.jar;C:\Users\user\.m2\repository\net\bytebuddy\byte-buddy\1.14.5\byte-buddy-1.14.5.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-os\4.15.0\selenium-os-4.15.0.jar;C:\Users\user\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.15.0\selenium-safari-driver-4.15.0.jar;C:\Users\user\.m2\repository\org\seleniumhq\selenium\selenium-support\4.15.0\selenium-support-4.15.0.jar;C:\Users\user\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\user\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\user\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\user\.m2\repository\io\qameta\allure\allure-testng\2.29.1\allure-testng-2.29.1.jar;C:\Users\user\.m2\repository\io\qameta\allure\allure-java-commons\2.29.1\allure-java-commons-2.29.1.jar;C:\Users\user\.m2\repository\io\qameta\allure\allure-model\2.29.1\allure-model-2.29.1.jar;C:\Users\user\.m2\repository\io\qameta\allure\allure-test-filter\2.29.1\allure-test-filter-2.29.1.jar;C:\Users\user\.m2\repository\io\qameta\allure\allure-cucumber7-jvm\2.29.1\allure-cucumber7-jvm-2.29.1.jar;C:\Users\user\.m2\repository\org\aspectj\aspectjweaver\1.9.23\aspectjweaver-1.9.23.jar;C:\Users\user\.m2\repository\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar;C:\Users\user\.m2\repository\ch\qos\logback\logback-classic\1.5.16\logback-classic-1.5.16.jar;C:\Users\user\.m2\repository\ch\qos\logback\logback-core\1.5.16\logback-core-1.5.16.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\user\AppData\Local\Temp\surefire17142534744655420587\surefirebooter-20250514221630665_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\user\AppData\Local\Temp\surefire8932132219532669828\surefirebooter-20250521201618838_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.6+8-LTS-188"/>
@@ -59,112 +58,113 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="runScenario[&quot;Verify image slider automatically changes images&quot;, &quot;Homepage image slider functionality&quot;](2)" classname="testRunnerAllureParallelScenarios1.TestRunnerAllureParallelScenarios1" time="4.449">
-    <system-out><![CDATA[22:16:31,662 |-INFO in ch.qos.logback.classic.LoggerContext[default] - This is logback-classic version 1.5.16
-22:16:31,664 |-INFO in ch.qos.logback.classic.util.ContextInitializer@5df417a7 - No custom configurators were discovered as a service.
-22:16:31,664 |-INFO in ch.qos.logback.classic.util.ContextInitializer@5df417a7 - Trying to configure with ch.qos.logback.classic.joran.SerializedModelConfigurator
-22:16:31,667 |-INFO in ch.qos.logback.classic.util.ContextInitializer@5df417a7 - Constructed configurator of type class ch.qos.logback.classic.joran.SerializedModelConfigurator
-22:16:31,672 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.scmo]
-22:16:31,672 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.scmo]
-22:16:31,682 |-INFO in ch.qos.logback.classic.util.ContextInitializer@5df417a7 - ch.qos.logback.classic.joran.SerializedModelConfigurator.configure() call lasted 7 milliseconds. ExecutionStatus=INVOKE_NEXT_IF_ANY
-22:16:31,682 |-INFO in ch.qos.logback.classic.util.ContextInitializer@5df417a7 - Trying to configure with ch.qos.logback.classic.util.DefaultJoranConfigurator
-22:16:31,682 |-INFO in ch.qos.logback.classic.util.ContextInitializer@5df417a7 - Constructed configurator of type class ch.qos.logback.classic.util.DefaultJoranConfigurator
-22:16:31,683 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
-22:16:31,686 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/C:/workspaces/projects/com.AllureParallelScenarios1/target/test-classes/logback.xml]
-22:16:31,896 |-WARN in ch.qos.logback.core.model.processor.ImplicitModelHandler - Ignoring unknown property [properties] in [ch.qos.logback.classic.LoggerContext]
-22:16:31,906 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [CONSOLE]
-22:16:31,906 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
-22:16:31,916 |-INFO in ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
-22:16:32,017 |-INFO in ch.qos.logback.core.ConsoleAppender[CONSOLE] - BEWARE: Writing to the console can be very slow. Avoid logging to the 
-22:16:32,017 |-INFO in ch.qos.logback.core.ConsoleAppender[CONSOLE] - console in production environments, especially in high volume systems.
-22:16:32,017 |-INFO in ch.qos.logback.core.ConsoleAppender[CONSOLE] - See also https://logback.qos.ch/codes.html#slowConsole
-22:16:32,017 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [FILE]
-22:16:32,017 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
-22:16:32,043 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@2080643905 - No compression will be used
-22:16:32,045 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@2080643905 - Will use the pattern test-output/logs/automation-%d{yyyy-MM-dd}.log for the active file
-22:16:32,055 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - The date pattern is 'yyyy-MM-dd' from file name pattern 'test-output/logs/automation-%d{yyyy-MM-dd}.log'.
-22:16:32,055 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Roll-over at midnight.
-22:16:32,056 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Setting initial period to 2025-05-15T02:16:32.056Z
-22:16:32,059 |-INFO in ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
-22:16:32,066 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - Active log file name: test-output/automation.log
-22:16:32,066 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - File property is set to [test-output/automation.log]
-22:16:32,067 |-INFO in ch.qos.logback.classic.model.processor.RootLoggerModelHandler - Setting level of ROOT logger to INFO
-22:16:32,068 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [CONSOLE] to Logger[ROOT]
-22:16:32,069 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [FILE] to Logger[ROOT]
-22:16:32,069 |-INFO in ch.qos.logback.core.model.processor.DefaultProcessor@7f69d591 - End of configuration.
-22:16:32,070 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@61078690 - Registering current configuration as safe fallback point
-22:16:32,070 |-INFO in ch.qos.logback.classic.util.ContextInitializer@5df417a7 - ch.qos.logback.classic.util.DefaultJoranConfigurator.configure() call lasted 388 milliseconds. ExecutionStatus=DO_NOT_INVOKE_NEXT_IF_ANY
+  <testcase name="runScenario[&quot;Verify homepage image slider is displayed&quot;, &quot;Homepage image slider functionality&quot;](1)" classname="testRunnerAllureParallelScenarios1.TestRunnerAllureParallelScenarios1" time="4.7">
+    <system-out><![CDATA[20:16:19,864 |-INFO in ch.qos.logback.classic.LoggerContext[default] - This is logback-classic version 1.5.16
+20:16:19,866 |-INFO in ch.qos.logback.classic.util.ContextInitializer@5df417a7 - No custom configurators were discovered as a service.
+20:16:19,866 |-INFO in ch.qos.logback.classic.util.ContextInitializer@5df417a7 - Trying to configure with ch.qos.logback.classic.joran.SerializedModelConfigurator
+20:16:19,869 |-INFO in ch.qos.logback.classic.util.ContextInitializer@5df417a7 - Constructed configurator of type class ch.qos.logback.classic.joran.SerializedModelConfigurator
+20:16:19,874 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.scmo]
+20:16:19,874 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.scmo]
+20:16:19,882 |-INFO in ch.qos.logback.classic.util.ContextInitializer@5df417a7 - ch.qos.logback.classic.joran.SerializedModelConfigurator.configure() call lasted 6 milliseconds. ExecutionStatus=INVOKE_NEXT_IF_ANY
+20:16:19,882 |-INFO in ch.qos.logback.classic.util.ContextInitializer@5df417a7 - Trying to configure with ch.qos.logback.classic.util.DefaultJoranConfigurator
+20:16:19,883 |-INFO in ch.qos.logback.classic.util.ContextInitializer@5df417a7 - Constructed configurator of type class ch.qos.logback.classic.util.DefaultJoranConfigurator
+20:16:19,884 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+20:16:19,887 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/C:/workspaces/projects/com.AllureParallelScenarios1/target/test-classes/logback.xml]
+20:16:20,104 |-WARN in ch.qos.logback.core.model.processor.ImplicitModelHandler - Ignoring unknown property [properties] in [ch.qos.logback.classic.LoggerContext]
+20:16:20,112 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [CONSOLE]
+20:16:20,112 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+20:16:20,121 |-INFO in ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+20:16:20,210 |-INFO in ch.qos.logback.core.ConsoleAppender[CONSOLE] - BEWARE: Writing to the console can be very slow. Avoid logging to the 
+20:16:20,210 |-INFO in ch.qos.logback.core.ConsoleAppender[CONSOLE] - console in production environments, especially in high volume systems.
+20:16:20,210 |-INFO in ch.qos.logback.core.ConsoleAppender[CONSOLE] - See also https://logback.qos.ch/codes.html#slowConsole
+20:16:20,210 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - Processing appender named [FILE]
+20:16:20,210 |-INFO in ch.qos.logback.core.model.processor.AppenderModelHandler - About to instantiate appender of type [ch.qos.logback.core.rolling.RollingFileAppender]
+20:16:20,234 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@2080643905 - No compression will be used
+20:16:20,238 |-INFO in c.q.l.core.rolling.TimeBasedRollingPolicy@2080643905 - Will use the pattern test-output/logs/automation-%d{yyyy-MM-dd}.log for the active file
+20:16:20,248 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - The date pattern is 'yyyy-MM-dd' from file name pattern 'test-output/logs/automation-%d{yyyy-MM-dd}.log'.
+20:16:20,248 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Roll-over at midnight.
+20:16:20,249 |-INFO in c.q.l.core.rolling.DefaultTimeBasedFileNamingAndTriggeringPolicy - Setting initial period to 2025-05-22T00:15:34.400Z
+20:16:20,250 |-INFO in ch.qos.logback.core.model.processor.ImplicitModelHandler - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+20:16:20,256 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - Active log file name: test-output/automation.log
+20:16:20,256 |-INFO in ch.qos.logback.core.rolling.RollingFileAppender[FILE] - File property is set to [test-output/automation.log]
+20:16:20,258 |-INFO in ch.qos.logback.classic.model.processor.RootLoggerModelHandler - Setting level of ROOT logger to INFO
+20:16:20,258 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [CONSOLE] to Logger[ROOT]
+20:16:20,259 |-INFO in ch.qos.logback.core.model.processor.AppenderRefModelHandler - Attaching appender named [FILE] to Logger[ROOT]
+20:16:20,259 |-INFO in ch.qos.logback.core.model.processor.DefaultProcessor@7f69d591 - End of configuration.
+20:16:20,260 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@61078690 - Registering current configuration as safe fallback point
+20:16:20,260 |-INFO in ch.qos.logback.classic.util.ContextInitializer@5df417a7 - ch.qos.logback.classic.util.DefaultJoranConfigurator.configure() call lasted 377 milliseconds. ExecutionStatus=DO_NOT_INVOKE_NEXT_IF_ANY
 
-
-@ImageSlider
-Scenario: Verify image slider automatically changes images           # src/test/resources/featureFolderAllureParallelScenarios1/ImageSliderAllureParallelScenarios1.feature:17
 
 @ImageSlider
 Scenario: Verify homepage image slider is displayed # src/test/resources/featureFolderAllureParallelScenarios1/ImageSliderAllureParallelScenarios1.feature:14
-22:16:34.130 [TestNG-PoolService-0] INFO  s.HooksAllureParallelScenarios1 - ==== STARTING Scenario: Verify homepage image slider is displayed ====
-22:16:34.130 [TestNG-PoolService-1] INFO  s.HooksAllureParallelScenarios1 - ==== STARTING Scenario: Verify image slider automatically changes images ====
-22:16:34.134 [TestNG-PoolService-0] INFO  u.BaseClassAllureParallelScenarios1 - Launching test on browser: Windows 10 10.0 (amd64), OS: {}
-22:16:34.134 [TestNG-PoolService-1] INFO  u.BaseClassAllureParallelScenarios1 - Launching test on browser: Windows 10 10.0 (amd64), OS: {}
-22:16:34.134 [TestNG-PoolService-0] INFO  u.BaseClassAllureParallelScenarios1 - **** Setting up WebDriver for browser: chrome on OS: Windows 10 10.0 (amd64) ****
-22:16:34.134 [TestNG-PoolService-1] INFO  u.BaseClassAllureParallelScenarios1 - **** Setting up WebDriver for browser: chrome on OS: Windows 10 10.0 (amd64) ****
-22:16:34.136 [TestNG-PoolService-0] INFO  u.BaseClassAllureParallelScenarios1 - Initializing Chrome browser... on Thread ID: 36
-22:16:34.136 [TestNG-PoolService-1] INFO  u.BaseClassAllureParallelScenarios1 - Initializing Chrome browser... on Thread ID: 37
-22:16:36.030 [TestNG-PoolService-1] INFO  s.HooksAllureParallelScenarios1 - ====Running scenario on Thread ID: ====37
-22:16:36.030 [TestNG-PoolService-0] INFO  s.HooksAllureParallelScenarios1 - ====Running scenario on Thread ID: ====36
-22:16:36.138 [TestNG-PoolService-0] INFO  s.ImageSliderAllureParallelScenarios1 - Thread ID: 36 - Verifying homepage title
-22:16:36.138 [TestNG-PoolService-1] INFO  s.ImageSliderAllureParallelScenarios1 - Thread ID: 37 - Verifying homepage title
-22:16:36.139 [TestNG-PoolService-0] INFO  u.BaseClassAllureParallelScenarios1 - Launching browser: chrome
-22:16:36.139 [TestNG-PoolService-1] INFO  u.BaseClassAllureParallelScenarios1 - Launching browser: chrome
+20:16:22.198 [TestNG-PoolService-0] INFO  s.HooksAllureParallelScenarios1 - ==== STARTING Scenario: Verify homepage image slider is displayed ====
+20:16:22.202 [TestNG-PoolService-0] INFO  u.BaseClassAllureParallelScenarios1 - **** Setting up WebDriver for browser: edge on OS: Windows 10 10.0 (amd64) ****
+20:16:22.203 [TestNG-PoolService-0] INFO  u.BaseClassAllureParallelScenarios1 - Initializing Edge browser... on Thread ID: 34
+20:16:24.053 [TestNG-PoolService-0] INFO  s.ImageSliderAllureParallelScenarios1 - Thread ID: 34 - Step: Launching homepage
+20:16:24.055 [TestNG-PoolService-0] INFO  u.BaseClassAllureParallelScenarios1 - Launcing URL on ThreadID: 34, Browser: edge
+20:16:25.574 [TestNG-PoolService-0] INFO  s.ImageSliderAllureParallelScenarios1 - Home page opened
   Given I am on the website homepage                # stepDefinationAllureParallelScenarios1.ImageSliderAllureParallelScenarios1.i_am_on_the_website_homepage()
+20:16:25.579 [TestNG-PoolService-0] INFO  s.ImageSliderAllureParallelScenarios1 - Thread ID: 34 - Step: Checking image slider visibility
+20:16:26.017 [TestNG-PoolService-0] INFO  s.ImageSliderAllureParallelScenarios1 - Image slider is visible at homepage
   Then the homepage image slider should be visible  # stepDefinationAllureParallelScenarios1.ImageSliderAllureParallelScenarios1.the_homepage_image_slider_should_be_visible()
-22:16:38.129 [TestNG-PoolService-0] INFO  s.HooksAllureParallelScenarios1 - Scenario passed: Verify homepage image slider is displayed
-22:16:38.130 [TestNG-PoolService-0] INFO  s.HooksAllureParallelScenarios1 - ==== PASSED Scenario: Verify homepage image slider is displayed ====
-22:16:38.130 [TestNG-PoolService-0] INFO  u.BaseClassAllureParallelScenarios1 - Closing browser
-  Given I am on the website homepage                                 # stepDefinationAllureParallelScenarios1.ImageSliderAllureParallelScenarios1.i_am_on_the_website_homepage()
-  When I wait for the image slider to change                         # stepDefinationAllureParallelScenarios1.ImageSliderAllureParallelScenarios1.i_wait_for_the_image_slider_to_change()
-  Then the displayed image should be different from the previous one # stepDefinationAllureParallelScenarios1.ImageSliderAllureParallelScenarios1.the_displayed_image_should_be_different_from_the_previous_one()
-22:16:38.189 [TestNG-PoolService-1] INFO  s.HooksAllureParallelScenarios1 - Scenario passed: Verify image slider automatically changes images
-22:16:38.190 [TestNG-PoolService-1] INFO  s.HooksAllureParallelScenarios1 - ==== PASSED Scenario: Verify image slider automatically changes images ====
-22:16:38.190 [TestNG-PoolService-1] INFO  u.BaseClassAllureParallelScenarios1 - Closing browser
+20:16:26.020 [TestNG-PoolService-0] INFO  s.HooksAllureParallelScenarios1 - ==== PASSED Scenario: Verify homepage image slider is displayed ====
+
+    Embedding Passed Screenshot [image/png 1210895 bytes]
+
+20:16:26.529 [TestNG-PoolService-0] INFO  u.BaseClassAllureParallelScenarios1 - Closing browser: edge, on ThreadID: 34
 Test completed successfully and browser closed.
-Test completed successfully and browser closed.
----------------------------------------
 ---------------------------------------
 ]]></system-out>
-    <system-err><![CDATA[java.io.FileNotFoundException: allure-results\environment.properties (The system cannot find the path specified)
-	at java.base/java.io.FileOutputStream.open0(Native Method)
-	at java.base/java.io.FileOutputStream.open(FileOutputStream.java:289)
-	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:230)
-	at java.base/java.io.FileOutputStream.<init>(FileOutputStream.java:118)
-	at utilityAllureParallelScenarios1.EnvironmentWriterAllureParallelScenarios1.writeAllureEnvironmentInfo(EnvironmentWriterAllureParallelScenarios1.java:21)
-	at testRunnerAllureParallelScenarios1.TestRunnerAllureParallelScenarios1.beforeSuite(TestRunnerAllureParallelScenarios1.java:29)
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:390)
-	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:325)
-	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:180)
-	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:122)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-	at org.testng.TestRunner.privateRun(TestRunner.java:848)
-	at org.testng.TestRunner.run(TestRunner.java:621)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
-	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-	at java.base/java.lang.Thread.run(Thread.java:1583)
-May 14, 2025 10:16:35 P.M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[May 21, 2025 8:16:23 P.M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 136
-May 14, 2025 10:16:35 P.M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find CDP implementation matching 136
-May 14, 2025 10:16:35 P.M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 136.0.7103.94. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
-May 14, 2025 10:16:35 P.M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 136.0.7103.94. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+May 21, 2025 8:16:23 P.M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 136.0.3240.76. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="runScenario[&quot;Verify homepage image slider is displayed&quot;, &quot;Homepage image slider functionality&quot;](2)" classname="testRunnerAllureParallelScenarios1.TestRunnerAllureParallelScenarios1" time="4.45"/>
+  <testcase name="runScenario[&quot;Verify image slider automatically changes images&quot;, &quot;Homepage image slider functionality&quot;](2)" classname="testRunnerAllureParallelScenarios1.TestRunnerAllureParallelScenarios1" time="5.355">
+    <failure message="Image did not change did not expect [https://www.alwaysfashion.com/images/thumbs/0214788_oris-big-crown-pointer-date-01-754-7798-4068-07-8-20-06_420.jpeg] but found [https://www.alwaysfashion.com/images/thumbs/0214788_oris-big-crown-pointer-date-01-754-7798-4068-07-8-20-06_420.jpeg]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Image did not change did not expect [https://www.alwaysfashion.com/images/thumbs/0214788_oris-big-crown-pointer-date-01-754-7798-4068-07-8-20-06_420.jpeg] but found [https://www.alwaysfashion.com/images/thumbs/0214788_oris-big-crown-pointer-date-01-754-7798-4068-07-8-20-06_420.jpeg]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failEquals(Assert.java:1582)
+	at org.testng.Assert.assertNotEqualsImpl(Assert.java:157)
+	at org.testng.Assert.assertNotEquals(Assert.java:2198)
+	at pageActionAllureParallelScenarios1.HomepageActionAllureParallelScenarios1.displayed_image_should_be_different_from_the_previous_one(HomepageActionAllureParallelScenarios1.java:39)
+	at stepDefinationAllureParallelScenarios1.ImageSliderAllureParallelScenarios1.the_displayed_image_should_be_different_from_the_previous_one(ImageSliderAllureParallelScenarios1.java:52)
+	at ✽.the displayed image should be different from the previous one(file:///C:/workspaces/projects/com.AllureParallelScenarios1/src/test/resources/featureFolderAllureParallelScenarios1/ImageSliderAllureParallelScenarios1.feature:20)
+]]></failure>
+    <system-out><![CDATA[
+@ImageSlider
+Scenario: Verify image slider automatically changes images           # src/test/resources/featureFolderAllureParallelScenarios1/ImageSliderAllureParallelScenarios1.feature:17
+20:16:26.735 [TestNG-PoolService-0] INFO  s.HooksAllureParallelScenarios1 - ==== STARTING Scenario: Verify image slider automatically changes images ====
+20:16:26.735 [TestNG-PoolService-0] INFO  u.BaseClassAllureParallelScenarios1 - **** Setting up WebDriver for browser: edge on OS: Windows 10 10.0 (amd64) ****
+20:16:26.735 [TestNG-PoolService-0] INFO  u.BaseClassAllureParallelScenarios1 - Initializing Edge browser... on Thread ID: 34
+20:16:27.628 [TestNG-PoolService-0] INFO  s.ImageSliderAllureParallelScenarios1 - Thread ID: 34 - Step: Launching homepage
+20:16:27.629 [TestNG-PoolService-0] INFO  u.BaseClassAllureParallelScenarios1 - Launcing URL on ThreadID: 34, Browser: edge
+20:16:30.711 [TestNG-PoolService-0] INFO  s.ImageSliderAllureParallelScenarios1 - Home page opened
+  Given I am on the website homepage                                 # stepDefinationAllureParallelScenarios1.ImageSliderAllureParallelScenarios1.i_am_on_the_website_homepage()
+20:16:30.712 [TestNG-PoolService-0] INFO  s.ImageSliderAllureParallelScenarios1 - Waiting for Image slider to change
+  When I wait for the image slider to change                         # stepDefinationAllureParallelScenarios1.ImageSliderAllureParallelScenarios1.i_wait_for_the_image_slider_to_change()
+  Then the displayed image should be different from the previous one # stepDefinationAllureParallelScenarios1.ImageSliderAllureParallelScenarios1.the_displayed_image_should_be_different_from_the_previous_one()
+      java.lang.AssertionError: Image did not change did not expect [https://www.alwaysfashion.com/images/thumbs/0214788_oris-big-crown-pointer-date-01-754-7798-4068-07-8-20-06_420.jpeg] but found [https://www.alwaysfashion.com/images/thumbs/0214788_oris-big-crown-pointer-date-01-754-7798-4068-07-8-20-06_420.jpeg]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failEquals(Assert.java:1582)
+	at org.testng.Assert.assertNotEqualsImpl(Assert.java:157)
+	at org.testng.Assert.assertNotEquals(Assert.java:2198)
+	at pageActionAllureParallelScenarios1.HomepageActionAllureParallelScenarios1.displayed_image_should_be_different_from_the_previous_one(HomepageActionAllureParallelScenarios1.java:39)
+	at stepDefinationAllureParallelScenarios1.ImageSliderAllureParallelScenarios1.the_displayed_image_should_be_different_from_the_previous_one(ImageSliderAllureParallelScenarios1.java:52)
+	at ✽.the displayed image should be different from the previous one(file:///C:/workspaces/projects/com.AllureParallelScenarios1/src/test/resources/featureFolderAllureParallelScenarios1/ImageSliderAllureParallelScenarios1.feature:20)
+
+20:16:31.199 [TestNG-PoolService-0] ERROR s.HooksAllureParallelScenarios1 - !!!! FAILED Scenario: Verify image slider automatically changes images !!!!
+
+    Embedding Failure Screenshot [image/png 1210895 bytes]
+
+20:16:31.902 [TestNG-PoolService-0] INFO  u.BaseClassAllureParallelScenarios1 - Closing browser: edge, on ThreadID: 34
+Test completed successfully and browser closed.
+---------------------------------------
+]]></system-out>
+    <system-err><![CDATA[May 21, 2025 8:16:27 P.M. org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 136
+May 21, 2025 8:16:27 P.M. org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 136.0.3240.76. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.15.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
 </testsuite>

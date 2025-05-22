@@ -1,10 +1,26 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testng-results failed="0" passed="2" skipped="0" total="2">
-    <suite duration-ms="5370" name="io.cucumber.core.plugin.TestNGFormatter">
-        <test duration-ms="5370" name="io.cucumber.core.plugin.TestNGFormatter">
+<testng-results failed="1" passed="1" skipped="0" total="2">
+    <suite duration-ms="10188" name="io.cucumber.core.plugin.TestNGFormatter">
+        <test duration-ms="10188" name="io.cucumber.core.plugin.TestNGFormatter">
             <class name="Homepage image slider functionality">
-                <test-method duration-ms="4875" finished-at="2025-05-15T02:17:17.570191200Z" name="Verify homepage image slider is displayed" started-at="2025-05-15T02:17:12.528576400Z" status="PASS"/>
-                <test-method duration-ms="4882" finished-at="2025-05-15T02:17:17.570191200Z" name="Verify image slider automatically changes images" started-at="2025-05-15T02:17:12.528576400Z" status="PASS"/>
+                <test-method duration-ms="4367" finished-at="2025-05-22T00:16:26.690512100Z" name="Verify homepage image slider is displayed" started-at="2025-05-22T00:16:22.166849300Z" status="PASS"/>
+                <test-method duration-ms="5324" finished-at="2025-05-22T00:16:32.069304700Z" name="Verify image slider automatically changes images" started-at="2025-05-22T00:16:26.732399200Z" status="FAIL">
+                    <exception class="java.lang.AssertionError">
+                        <message><![CDATA[Given I am on the website homepage..........................................passed
+When I wait for the image slider to change..................................passed
+Then the displayed image should be different from the previous one..........failed
+]]></message>
+                        <full-stacktrace><![CDATA[java.lang.AssertionError: Image did not change did not expect [https://www.alwaysfashion.com/images/thumbs/0214788_oris-big-crown-pointer-date-01-754-7798-4068-07-8-20-06_420.jpeg] but found [https://www.alwaysfashion.com/images/thumbs/0214788_oris-big-crown-pointer-date-01-754-7798-4068-07-8-20-06_420.jpeg]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failEquals(Assert.java:1582)
+	at org.testng.Assert.assertNotEqualsImpl(Assert.java:157)
+	at org.testng.Assert.assertNotEquals(Assert.java:2198)
+	at pageActionAllureParallelScenarios1.HomepageActionAllureParallelScenarios1.displayed_image_should_be_different_from_the_previous_one(HomepageActionAllureParallelScenarios1.java:39)
+	at stepDefinationAllureParallelScenarios1.ImageSliderAllureParallelScenarios1.the_displayed_image_should_be_different_from_the_previous_one(ImageSliderAllureParallelScenarios1.java:52)
+	at ✽.the displayed image should be different from the previous one(file:///C:/workspaces/projects/com.AllureParallelScenarios1/src/test/resources/featureFolderAllureParallelScenarios1/ImageSliderAllureParallelScenarios1.feature:20)
+]]></full-stacktrace>
+                    </exception>
+                </test-method>
             </class>
         </test>
     </suite>

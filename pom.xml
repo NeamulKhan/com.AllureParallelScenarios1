@@ -159,6 +159,15 @@
                 	<suiteXmlFiles>
                        <suiteXmlFile>C:\workspaces\projects\com.AllureParallelScenarios1\testng1.xml</suiteXmlFile>
                    	</suiteXmlFiles>
+                
+                 <!-- Use following properties when dataproviderthreadcount control by pom.xml-->  
+                 
+                <!-- <properties>-->
+                <!--       <property>-->
+                <!--           <name>dataproviderthreadcount</name>-->
+                 <!--          <value>2</value>-->
+                 <!--      </property>-->
+                <!--   </properties>-->
                    
               	<argLine>
               	
